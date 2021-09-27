@@ -1,0 +1,124 @@
+html,
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+h5,
+p form,
+input,
+div {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Avenir Next";
+}
+
+header {
+  width: 100%;
+  background-color: #26d0c9;
+  color: white;
+  height: 90px;
+}
+
+header h1 {
+  float: left;
+  padding: 20px;
+}
+header li {
+  display: inline;
+  list-style: none;
+  padding: 33px 20px;
+}
+
+.nav-li {
+  padding: 33px 20px;
+}
+.container {
+  padding-top: 100px;
+}
+
+.container h1 {
+  font-size: 140px;
+  color: black;
+}
+.container span {
+  color: red;
+}
+
+.container h2 {
+  font-size: 40px;
+}
+
+main {
+  padding: 10px 40px 10px 40px;
+}
+.img-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.img {
+  flex: 1;
+}
+
+.section-title {
+  font-size: 28px;
+  border-bottom: 1px solid #dee7ec;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.conten {
+  padding-top: 50px;
+}
+
+.wrapper-input input {
+  width: 300px;
+  height: 50px;
+  /* border-color: g; */
+  border: 1px solid #dee7ec;
+}
+.wrapper-input textarea {
+  width: 300px;
+  height: 70px;
+  /* border-color: g; */
+  border: 1px solid #dee7ec;
+}
+
+.section-form {
+  height: 500px;
+  padding-top: 60px;
+}
+
+.btn {
+  width: 300px;
+  height: 70px;
+  margin-top: 30px;
+  border: 1px solid #dee7ec;
+}
+
+footer {
+  background-color: #2f5167;
+  height: 120px;
+}
+
+.wrapper-li {
+  float: right;
+  color: white;
+  margin-top: 10px;
+}
+
+.wrapper-li li {
+  list-style: none;
+  padding-bottom: 5px;
+}
+
+.footer-logo {
+  font-size: 32px;
+  float: left;
+  color: white;
+  margin: 10px 0 0 20px;
+}
